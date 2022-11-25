@@ -7,7 +7,7 @@ public class OddOneOut {
         return arr.length > 3;
     }
     public int oddOneOut(int[] arr){
-        if (arrLength(arr)) return 0;
+        if (!arrLength(arr)) return 0;
         int oddOne = 0;
         List<Integer> arr3 = new ArrayList<>();
         List<Integer> arr4 = new ArrayList<>();
